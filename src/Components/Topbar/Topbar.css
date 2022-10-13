@@ -1,0 +1,19 @@
+.topbar{
+    width: 100%;
+    height: 50%;
+    background-color: #fff;
+}
+
+.topbarWrapper{
+    height: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-weight: bolder;
+    color: #203952;
+    cursor: pointer;
+}
