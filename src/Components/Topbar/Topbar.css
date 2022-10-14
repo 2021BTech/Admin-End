@@ -9,7 +9,7 @@
 
 .topbarWrapper{
     height: 100%;
-    padding: 10px 20px;
+    padding: 0px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -20,8 +20,11 @@
 }
 .logo{
     font-weight: bolder;
-    color: #203952;
+    color: #fff;
+    background-color: #203952;
     cursor: pointer;
+    border: 2px solid #203952;
+    border-radius: 10px;
 }
 
 .topbarIcon{
@@ -36,7 +39,7 @@
     top: -5px;
     right: 5px;
     background-color: #203952;
-    color: #000;
+    color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
