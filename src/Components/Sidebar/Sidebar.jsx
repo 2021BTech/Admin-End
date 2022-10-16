@@ -30,7 +30,7 @@ const Sidebar = () => {
         <div className='sidebarMeun'>
             <h3 className='sidebarTitle'>Quick Menu</h3>
             <ul className='sidebarList'>
-                <li className='sidebarListItem active'>
+                <li className='sidebarListItem'>
                     <People/>
                     User
                 </li>
@@ -52,7 +52,7 @@ const Sidebar = () => {
         <div className='sidebarMeun'>
             <h3 className='sidebarTitle'>Notifications</h3>
             <ul className='sidebarList'>
-                <li className='sidebarListItem active'>
+                <li className='sidebarListItem'>
                     <Email className='sidebarIcons'/>
                     Mail
                 </li>
@@ -70,7 +70,7 @@ const Sidebar = () => {
         <div className='sidebarMeun'>
             <h3 className='sidebarTitle'>Staffs</h3>
             <ul className='sidebarList'>
-                <li className='sidebarListItem active'>
+                <li className='sidebarListItem'>
                     <LocalMall className='sidebarIcons'/>
                     Manage
                 </li>
