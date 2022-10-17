@@ -1,3 +1,6 @@
+//img
+import Avt from "./assets/img/male.png";
+
 export const userData = [
     {
       name: 'Jan',
@@ -71,4 +74,49 @@ export const userData = [
       pv: 4300,
       amt: 2100,
     }
+  ];
+
+  //table data
+  export 
+  const userRows = [
+    { id: 1,
+      lastName: 'Becon',
+      firstName: 'Daniel', 
+      Avatar:{Avt},
+      email:"daffydanni@gmail.com",
+      status:"Active",
+      transaction: "$500.00"
+    },
+    { id: 2, 
+      lastName: 'James',
+      firstName: 'Bond', 
+      Avatar:{Avt},
+      email:"bondjames@gmail.com",
+      status:"Active",
+      transaction: "$500.00"
+   },
+   { id: 3,
+    lastName: 'Lil',
+    firstName: 'Saint', 
+    Avatar:{Avt},
+    email:"sanitlil@gmail.com",
+    status:"Active",
+    transaction: "$500.00"
+  },
+  { id: 4, 
+    lastName: 'karl',
+    firstName: 'Bond', 
+    Avatar:{Avt},
+    email:"bondkarl@gmail.com",
+    status:"Active",
+    transaction: "$500.00"
+ },
+ {  id: 5, 
+    lastName: 'James',
+    firstName: 'Carter', 
+    Avatar:{Avt},
+    email:"carterjames@gmail.com",
+    status:"Active",
+    transaction: "$500.00"
+},
   ];

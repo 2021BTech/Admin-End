@@ -11,7 +11,7 @@ const Topbar = () => {
     <div className='topbar'> 
         <div className='topbarWrapper'>
             <div className='topbarLeft'>
-                <span className='logo'> BONITAS GROUP</span>
+                <span className='logo'> I-AM-ADMIN</span>
             </div>
             <div className='topbarRight'>
                 <div className='topbarIcon'>
